@@ -7,8 +7,8 @@ password = 'welcome01'
 
 @flaskapp.route('/')
 def index():
-    name = request.args.get('name')
-    author = request.args.get('author')
+    name = 'Ron'
+author = request.args.get('author')
     read = bool(request.args.get('read'))
 
     if name:
